@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="canonical" href="">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Cafe The Court</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cafe The Court is confotable place in Karuizawa, Nagano" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel=" stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="body-line-outer-top">
+    <div class="body-outline-inner">
+      <!-- header -->
+      <header>
+        <div id="pc" class="header-outer">
+          <h1><img src="image/logo2.png" alt="" class="logo"></h1>
+          <ul class="flex-container flex-center nav">
+            <li><a href="index.html">MAIN</a></li>
+            <li><a href="drink.html">DRINK</a></li>
+            <li><a href="food.html">FOOD</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li class="selected-page">CONTACT</li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a class="black" href="#"><i class="fab fa-instagram icon"></i></a>
+              <a class="black" href="#"><i class="fab fa-facebook-square icon"></i></a></li>
+          </ul>
+        </div>
+        <!-- hamburger-menu -->
+        <div id="smp">
+          <div class="header-outer">
+            <img src="image/logo-smp.png" alt="" class="logo"></div>
+          <nav class="NavMenu">
+            　<ul>
+              <li><a href="index.html">MAIN</a></li>
+              　　<li><a href="drink.html">DRINK</a></li>
+              　　<li><a href="food.html">FOOD</a></li>
+              　　<li><a href="about.html">ABOUT</a></li>
+              　　<li class="selected-page">CONTACT</li>
+              <li class="li-special"><a href="news.html">NEWS</a></li>
+            </ul>
+            <div class="flex-container flex-center">
+              <a class="black" href="#"><i class="fab fa-instagram icon"></i></a>
+              <a class="black" href="#"><i class="fab fa-facebook-square icon"></i></a>
+            </div>
+          </nav>
+        </div>
+        <div class="Toggle" id="smp">
+          　　<span></span>
+          　　<span></span>
+          <span></span>
+          <span>MENU</span>
+        </div>
+      </header>
+      <!-- main -->
+      <main>
+        <section class="service-line-top">
+          <div id="pc" class="flex-container flex-center flex-wrap">
+            <div class="flex-left-text">
+              <h2>CONTACT US</h2>
+            </div>
+            <div class="flex-right"><img src="image/caffeine-coffee-coffee-beans-585750@2x.png" alt="">
+            </div>
+          </div>
+        </section>
+    </div>
+  </div>
+  <div class="body-line-outer-bottom">
+    <div class="body-outline-inner padding-bottom">
+      <div class="flex-container flex-center flex-wrap">
+        <div class="contact-map"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51409.411373590934!2d138.598388775143!3d36.358642185513766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8abdb9edb32b999a!2z6Lu95LqV5rKi5Lya44OG44OL44K544Kz44O844OI!5e0!3m2!1sja!2sde!4v1559571102322!5m2!1sja!2sde"
+            width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="contact-info">
+            <h3>Stop by in person during our regular business hours, or email us
+              any time!</h3>
+            <h3> Mon - Fri 6:00am - 11:00pm<br>
+              Sat - Sun 6:00am - 11:00pm</h3>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h4>NAME*</h4>
+          <div class="flex-container flex-space-between flex-wrap">
+            <div><input class="name-form" type="text" required>
+              <p>FIRST NAME</p>
+            </div>
+            <div><input class="name-form" type="text" required>
+              <p>LAST NAME</p>
+            </div>
+          </div>
+          <h4>EMAIL ADDRESS*</h4>
+          <input type="text" required>
+          <h4>SUBJECT*</h4>
+          <input type="text" required>
+          <h4>MESSAGE*</h4>
+          <input class="message-form" type="text" required>
+          <div class="button">
+            <button type="button">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+      </main>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>®️Cafe The Court All Right Reserved 2019</p>
+  </footer>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!--トグルボタンが押されたときに、クラスを付与-->
+  <script type="text/javascript">
+    $(function () {
+      $('.Toggle').click(function () {
+        $(this).toggleClass('active');
+
+        if ($(this).hasClass('active')) {
+          $('.NavMenu').addClass('active'); //クラスを付与
+        } else {
+          $('.NavMenu').removeClass('active'); //クラスを外す
+        }
+      });
+    });
+  </script>
+  </div>
+</body>
+
+</html>

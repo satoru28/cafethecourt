@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="canonical" href="">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Cafe The Court</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cafe The Court is confotable place in Karuizawa, Nagano" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel=" stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="body-line-outer-top">
+    <div class="body-outline-inner">
+      <!-- header -->
+      <header>
+        <div id="pc" class="header-outer">
+          <h1><img src="image/logo2.png" alt="" class="logo"></h1>
+          <ul class="flex-container flex-center nav">
+            <li><a href="index.html">MAIN</a></li>
+            <li><a href="drink.html">DRINK</a></li>
+            <li><a href="food.html">FOOD</a></li>
+            <li class="selected-page">ABOUT</li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a class="black" href="#"><i class="fab fa-instagram icon"></i></a>
+              <a class="black" href="#"><i class="fab fa-facebook-square icon"></i></a></li>
+          </ul>
+        </div>
+        <!-- hamburger-menu -->
+        <div id="smp">
+          <div class="header-outer">
+            <img src="image/logo-smp.png" alt="" class="logo"></div>
+          <nav class="NavMenu">
+            　<ul>
+              <li><a href="index.html">MAIN</a></li>
+              　　<li><a href="drink.html">DRINK</a></li>
+              　　<li><a href="food.html">FOOD</a></li>
+              　　<li class="selected-page">ABOUT</li>
+              　　<li><a href="contact.html">CONTACT</a></li>
+              <li class="li-special"><a href="news.html">NEWS</a></li>
+            </ul>
+            <div class="flex-container flex-center">
+              <a class="black" href="#"><i class="fab fa-instagram icon"></i></a>
+              <a class="black" href="#"><i class="fab fa-facebook-square icon"></i></a>
+            </div>
+          </nav>
+        </div>
+        <div class="Toggle" id="smp">
+          　　<span></span>
+          　　<span></span>
+          <span></span>
+          <span>MENU</span>
+        </div>
+      </header>
+      <!-- main -->
+      <main>
+        <section class="service-line-top">
+          <div id="" class="flex-container flex-center flex-wrap">
+            <div class="flex-left-text">
+              <h2>ABOUT US</h2>
+            </div>
+            <div class="flex-right"><img src="image/barista-caffeine-coffee-980074@2x.png" alt="">
+            </div>
+          </div>
+        </section>
+    </div>
+  </div>
+  <div class="body-line-outer-bottom">
+    <div class="body-outline-inner padding-bottom">
+      <section class="service-line-bottom">
+        <div class="flex-container flex-center flex-wrap">
+          <div class="flex-left"><img src="image/aroma-barista-black-coffee-1233531@2x.png" alt="">
+          </div>
+          <div class="flex-right-text-about">
+            <h3>The Court is a place where everybody enjoy politely, like
+              a tennis court. Also The Court is your neighborhood
+              coffee shop with a flair for the eclectic. As the longest
+              running independent coffee shop in Karuizawa since
+              1998. As the longest running independent coffee shop in
+              Las Vegas, we believe in creating an atmosphere that
+              focuses on making friends, drinking good coffee from
+              organic fair trade single origin farms, and eating
+              vegetarian and vegan foods made from scratch. If you are
+              looking for a place to call your own, look no further -
+              come hang out. </h3>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex-container flex-space-around flex-wrap">
+          <div class="flex-left-bottom">
+            <div class="about-left">
+              <h4>Our Story</h4>
+              <p>Kei and Azusa started The Tennis Court and Mothership Coffee
+                Roasters in 1998 with the idea of bringing the neighborhood coffee
+                shop to Karuizawa. Coffee roasting, producing world class coffee,
+                and cultivating a true sense of community have all become an
+                integral part of The Court. The goal has always been to strive for
+                ethically sourced coffee beans, fair trade practices, and eco-
+                conciousness while having fun along the way! </p>
+            </div>
+          </div>
+          <div class="flex-right-bottom">
+            <div class="about-right">
+              <h4>Press</h4>
+              <ul class="menulist">
+                <li>KTNV Positively LV: April 6, 2015: Experience the Karuizawa
+                  Coffee Culture</li>
+                <li>KNPR’s Japan: February 19, 2015: Coffee: The Brew of
+                  Champions</li>
+                <li>Desert Froth: December 12, 2014: The Court</li>
+                <li>Review Journal: January 22, 2013: The Court thriving thanks to
+                  quality java, welcoming atmosphere
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      </main>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>®️Cafe The Court All Right Reserved 2019</p>
+  </footer>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!--トグルボタンが押されたときに、クラスを付与-->
+  <script type="text/javascript">
+    $(function () {
+      $('.Toggle').click(function () {
+        $(this).toggleClass('active');
+
+        if ($(this).hasClass('active')) {
+          $('.NavMenu').addClass('active'); //クラスを付与
+        } else {
+          $('.NavMenu').removeClass('active'); //クラスを外す
+        }
+      });
+    });
+  </script>
+  </div>
+</body>
+
+</html>

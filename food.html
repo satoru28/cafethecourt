@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="canonical" href="">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Cafe The Court</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cafe The Court is confotable place in Karuizawa, Nagano" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel=" stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="body-line-outer-top">
+    <div class="body-outline-inner">
+      <!-- header -->
+      <header>
+        <div id="pc" class="header-outer">
+          <h1><img src="image/logo2.png" alt="" class="logo"></h1>
+          <ul class="flex-container flex-center nav">
+            <li><a href="index.html">MAIN</a></li>
+            <li><a href="drink.html">DRINK</a></li>
+            <li class="selected-page">FOOD</li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a class="black" href="#"><i class="fab fa-instagram icon"></i></a>
+              <a class="black" href="#"><i class="fab fa-facebook-square icon"></i></a></li>
+          </ul>
+        </div>
+        <!-- hamburger-menu -->
+        <div id="smp">
+          <div class="header-outer">
+            <img src="image/logo-smp.png" alt="" class="logo"></div>
+          <nav class="NavMenu">
+            　<ul>
+              <li><a href="index.html">MAIN</a></li>
+              　　<li><a href="drink.html">DRINK</a></li>
+              　　<li class="selected-page">FOOD</li>
+              　　<li><a href="about.html">ABOUT</a></li>
+              　　<li><a href="contact.html">CONTACT</a></li>
+              <li class="li-special"><a href="news.html">NEWS</a></li>
+            </ul>
+            <div class="flex-container flex-center">
+              <a class="black" href="#"><i class="fab fa-instagram icon"></i></a>
+              <a class="black" href="#"><i class="fab fa-facebook-square icon"></i></a>
+            </div>
+          </nav>
+        </div>
+        <div class="Toggle" id="smp">
+          　　<span></span>
+          　　<span></span>
+          <span></span>
+          <span>MENU</span>
+        </div>
+      </header>
+      <!-- main -->
+      <main>
+        <section class="service-line-top">
+          <div id="" class="flex-container flex-center flex-wrap">
+            <div class="flex-left-text">
+              <h2>FOOD MENU</h2>
+            </div>
+            <div class="flex-right"><img src="image/blur-bread-close-up-203089@2x.png" alt="">
+            </div>
+          </div>
+        </section>
+    </div>
+  </div>
+  <div class="body-line-outer-bottom">
+    <div class="body-outline-inner padding-bottom">
+      <section class="service-line-bottom">
+        <div class="flex-container flex-center flex-wrap">
+          <div class="flex-left"><img src="image/broccoli-delicious-diet-1580466@2x.png" alt="">
+          </div>
+          <div class="flex-right-text">
+            <h3>Sunrise Coffee has an assortment of vegetarian, vegan
+              and gluten free food items made fresh daily. All of our
+              eggs are hormone-free and most of our fruit comes
+              straight from the farm. A strong part of our ethos is to
+              keep our food healthy, delicious and homemade. </h3>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex-container flex-space-around flex-wrap">
+          <div class="flex-left-bottom">
+            <ul class="menulist">
+              <li>HOT MESS BOWL (VG)(GF) $8<br><span>potatoes, eggs, cheese, spinach, tomato, red bell peppers, sour
+                  cream
+                  and cholula with a side of toast</span></li>
+
+              <li>BEAUTIFUL BOWL (GF) $6.50<br><span>Hard boiled eggs with sliced cucumbers, avocado and turmeric
+                  dusted red pepper hummus</span></li>
+
+              <li>MULTIGRAIN EGG SANDWICH (VG)(GF) $8<br>
+                <span>house made organic bread with egg, cheese, veganaise, spinach,
+                  avocado, tomato and tofurky</span></li>
+
+              <li>CROISSANT EGG SANDWICH $8<br>
+                <span>house made croissant with veganaise, egg, cheese, avocado, tomato</span></li>
+            </ul>
+          </div>
+          <div class="flex-right-bottom">
+            <ul class="menulist">
+              <li>TOFURKEY SANDWICH (VG)(GF) $8
+                <br>
+                <span>house made organic bread, cheese, hummus, ranch dressing, red bell peppers, tomato, avocado,
+                  spinach with tofurky</span></li>
+              <li>DO GOODER (VG) $5<br>
+                <span>everything bagel toasted with herb cream cheese, avocado, tomato, salt and black pepper</span>
+              </li>
+              <li>BAGELS (VG)(GF)</li>
+              <li>ASSORTED FRESH BAKED MUFFINS (VG)(GF)</li>
+              <li>CROISSANTS / COOKIES (VG) / SCONES (VG)</li>
+              <li>(VG)(GF) These items can be made vegan and/or gluten-free. Please specify when ordering.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      </main>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>®️Cafe The Court All Right Reserved 2019</p>
+  </footer>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!--トグルボタンが押されたときに、クラスを付与-->
+  <script type="text/javascript">
+    $(function () {
+      $('.Toggle').click(function () {
+        $(this).toggleClass('active');
+
+        if ($(this).hasClass('active')) {
+          $('.NavMenu').addClass('active'); //クラスを付与
+        } else {
+          $('.NavMenu').removeClass('active'); //クラスを外す
+        }
+      });
+    });
+  </script>
+  </div>
+</body>
+
+</html>
