@@ -53,7 +53,8 @@ video {
 body {
   max-width: 1440px;
   height: auto;
-  font-family: 'Apple LiSung', メイリオ, Meiryo, "游ゴシック体", YuGothic, sans-serif !important;
+  font-family: "Apple LiSung", メイリオ, Meiryo, "游ゴシック体", YuGothic,
+    sans-serif !important;
   color: #000;
   background-color: white;
 }
@@ -192,7 +193,6 @@ li {
 
 .service-line-bottom {
   width: 100%;
-  height: 50vh;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -208,6 +208,7 @@ li {
 }
 
 /* header */
+
 .header-outer {
   width: 100%;
   height: auto;
@@ -216,10 +217,10 @@ li {
 
 .logo {
   width: auto;
-  height: 200px;
+  height: 25vh;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 3vh;
 }
 
 @media only screen and (max-width: 1026px) {
@@ -231,12 +232,12 @@ li {
 }
 
 .nav {
-  margin: 30px 0;
+  margin-top: 3vh;
 }
 
 .nav li {
   margin: 0 20px;
-  margin-top: 12px;
+  margin-top: 2vh;
 }
 
 .nav li a {
@@ -386,7 +387,7 @@ nav.NavMenu.active {
   top: 24px;
   font-size: 6px;
   border: none;
-  color: gray
+  color: gray;
 }
 
 /* 最初のspanをマイナス45度に */
@@ -541,14 +542,14 @@ nav.NavMenu.active {
 
 .flex-left-text h2 {
   margin-top: 40%;
-  font-size: 26px
+  font-size: 26px;
 }
 
 @media only screen and (max-width: 769px) {
   .flex-left-text h2 {
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 20px
+    font-size: 20px;
   }
 }
 
@@ -761,12 +762,13 @@ button {
   width: 100px;
   height: 30px;
   cursor: pointer;
-  font-family: 'Apple LiSung', メイリオ, Meiryo, "游ゴシック体", YuGothic, sans-serif !important;
+  font-family: "Apple LiSung", メイリオ, Meiryo, "游ゴシック体", YuGothic,
+    sans-serif !important;
 }
 
 @media only screen and (max-width: 1026px) {
   button {
-    background-color: #fff
+    background-color: #fff;
   }
 }
 
